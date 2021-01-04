@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h2{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.btn-md{
+    border: #ffc000 2px solid;
+}
+
+.banner{
+    height: 100vh;
+    width: 100px;
+    background: url(img/3.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 4%;  
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+     
+}
+
+.banner .nav{
+    margin-right: 10%;
+}
+.banner .nav li a{
+    color: #fff;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #aaa;
+    text-align: justify;
+}
+
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    transition: .5s;
+}
+.nav-bar-o a{
+    color: #fff !important;
+}
+
+.nav-bar-o a:hover{
+    color: #ffc000 !important;
+}
+
+.navbar-brand{
+    color: #fff !important;
+}
+
+.fa-bars{
+    color: #fff !important;
+}
+.navbar-nav{
+    position: sticky ! ;
+}
+
+#home{
+    transform: translateY(-120%);
+    width: 10%;
+}
+
+#home h5{
+    color: #fff;
+}
+
+.register-btn{
+    width: 200px;
+    height: 50px;
+    font-weight: 700 !important;
+    border: 2px solid !important;
+    margin-top: 20px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  
+  font-family:Khula;
+  font-size:1.3em;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  display:block;
+  position:absolute;
+  color:white;  
+}
+.console-underscore {
+   display:inline-block;
+  position:relative; 
+}
+
+#about p{
+    text-align: justify;
+     
+}
+
+.about-para{
+    padding-bottom: 20px;
+}
+ 
+
+.about-head{
+   
+    padding-bottom: 30px ;
+}
+
+#about ul li{
+    width: 100%;
+    background-color: #aaa;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px #fff solid;
+    text-align: center;
+}
+
+.about-btn{
+    width: 100%;
+    height: 50px;
+    font-weight: 700 !important;
+    border: 2px solid #ffc000 !important;
+    margin-top: 20px;
+    padding: 20px;
+  
+}
+ 
+ 
+
+#services{
+    background-color: #efefef;
+    padding-bottom: 50px;
+}
+
+#services img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+#services .col-md-4{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border: 10px #efefef solid;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    transition: .5s;
+}
+
+#services .col-md-4:hover{
+    border: none;
+     border: #ffc000 2px solid;
+     transform: translateY(-10px);
+}
+
+#services h2{
+   
+    background-color: #fff;
+    padding-bottom: 3%;
+    background-color: #ffc000;
+    width: 100%;
+}
+
+#services h3{
+    margin-bottom: 50px;
+}
+
+#services p{
+    text-align: justify;
+}
+
+#testimonials{
+    background-image: url("img/3.jpg");
+    height: 600px;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#testimonials img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-right: auto;
+}
+ 
+#testimonials h5{
+    padding: 30px;
+}
+
+#testimonials p{
+    text-align: justify;
+}
+
+.carousel-inner{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+h1 ::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic{
+    margin-top: 25px;
+
+}
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box  :hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+    color: #007bff !important;
+}
+
+.profile-pic h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-80%);
+    transform: translateY(-80%);
+
+}
+ 
+.img-box ul li{
+    padding: 5PX;
+    display: inline-block;
+}
+
+.img-box :hover{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: .5s;
+}
+.col-md-3 p{
+    text-align: justify center;
+}
+ 
+ 
